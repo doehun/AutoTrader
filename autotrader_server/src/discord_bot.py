@@ -1,7 +1,7 @@
 import datetime
 from discord.ext import commands
-import src.gcp_utils as utils
-import src.text_to_order_params as ttop
+import autotrader_server.src.gcp_utils as utils
+import autotrader_server.src.text_to_order_params as ttop
 
 
 class ListenerBot(commands.Bot):
